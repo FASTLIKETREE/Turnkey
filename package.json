@@ -1,0 +1,38 @@
+{
+  "name": "turnkey",
+  "version": "1.0.0",
+  "description": "Airbnb parsing server for Turnkey",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/start.js",
+    "debug": "node --inspect=192.168.0.25:5858 --debug-brk ./src/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FASTLIKETREE/Turnkey.git"
+  },
+  "author": "Wesley Hunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FASTLIKETREE/Turnkey/issues"
+  },
+  "homepage": "https://github.com/FASTLIKETREE/Turnkey#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.31",
+    "nightmare": "^2.10.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-loader": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.6.0"
+  }
+}
